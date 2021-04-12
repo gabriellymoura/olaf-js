@@ -1,0 +1,56 @@
+.titulo {
+color: #7f7f7f;
+text-align: left;
+text-indent: 12px;
+font-size: 20px;
+font-family: corbel; 
+}
+.table-caixa {
+color: #fff;
+margin-left:  100px;
+margin-right:  100px;
+margin-top: 25px;
+margin-bottom: 30px;
+}
+.cx-td-titulo {
+width: 25%;
+height: 45px;
+border: solid 1px #e0e0e0;
+}
+.cx-th-titulo {
+background-color: #606060;
+width: 25%;
+height: 45px;
+border: solid 1px #e0e0e0;
+}
+.cx-td {
+width: 25%;
+height: 45px;
+border: solid 1px #e0e0e0;
+}
+.cx-th {
+background-color: #6ab266;
+width: 25%;
+height: 45px;
+border: solid 1px #e0e0e0;
+}
+.cx-thd {
+background-color: #b26866;
+width: 25%;
+height: 45px;
+border: solid 1px #e0e0e0;
+}
+.caixa-form2 {
+background-color: #fff;
+width: 268px;
+height: 45px;
+border: solid 1px #e0e0e0;
+border-top: none;
+}
+.data {
+background-color: #fff;
+width: 89px;
+height: 45px;
+border: solid 0px #e0e0e0; 
+color: #7f7f7f;
+}

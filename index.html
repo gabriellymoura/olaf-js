@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html">
+    <title>DESENHO OLAF</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+   	<link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+	<script src="three.min.js"></script>
+</head>
+<body onload="main();">
+        <div class="row">
+            <div id="canvas" class="col">
+            </div>
+            <div id="menudiv" class="col">
+                <h1><span class="badge badge-info">Menu do Frozen</span></h1>
+                <h3><span class="badge badge-info">Escala</span></h3>
+                <button type="button" class="btn btn-info" onclick="animarScalarMais()">+</button>
+                <button type="button" class="btn btn-info" onclick="animarScalarMenos()">-</button>
+                <br/><br/>
+                <h3><span class="badge badge-info">Rotação</span></h3>
+                <button type="button" class="btn btn-info" onclick="animarEscena()" >360º Infinito</button>
+                <br/><br/>
+                <h3><span class="badge badge-info">Reflexo</span></h3>
+                <button type="button" class="btn btn-info" onclick="animarReflexoX()">Refletir em torno do eixo X</button>
+                <button type="button" class="btn btn-info" onclick="animarReflexoXY()">Refletir em torno do eixo XY</button>
+                <br/><br/>
+                <h3><span class="badge badge-info">Translação</span></h3>
+                <div class="btn-group" role="group" aria-label="Basic example"></div>
+                    <button type="button" class="btn btn-danger" onclick="animarLeft()" >←</button>
+                    <button type="button" class="btn btn-danger" onclick="animarUp()" >↑</button>
+                    <button type="button" class="btn btn-default" onclick="animarDown()" >↓</button>
+                    <button type="button" class="btn btn-default" onclick="animarRight()" >→</button>
+                </div>
+            </div>
+    </div>
+   
+    <script src="olaf.js"></script>
+</body>
+</html>
